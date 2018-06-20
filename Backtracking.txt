@@ -1,0 +1,34 @@
+--------------------------------
+1) 	Permutaions
+	Kth Permutation Sequence
+	All Unique Permutations
+--------------------------------
+2) 	Combinations
+	Combination Sum
+	Combination Sum 2
+--------------------------------
+3)  Subsets 2
+	Subset
+--------------------------------
+4)  NQueens
+--------------------------------
+5) 	Palindrome Partioning
+--------------------------------
+6) 	Generate all paranthesis 2
+7) 	Letter phone
+8) 	Sudoku
+9) 	Gray Code
+10) Path finding
+
+-------------------------------------------------------------------------------------------
+Kth Permutation sequence
+	1) use next higher lexichographical string method in generating this
+	2) https://stackoverflow.com/questions/31216097/given-n-and-k-return-the-kth-permutation-sequence
+-------------------------------------------------------------------------------------------
+1) All permutations of a string - use next higher lexicographical string generation method
+	Time Complexity - O(n*m)
+					-) n = number of characters in string
+					-) m = number possible permutations
+
+	Space complexity - O(n) - just to print all permutations
+-------------------------------------------------------------------------------------------
